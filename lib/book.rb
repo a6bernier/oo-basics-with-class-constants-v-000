@@ -2,8 +2,6 @@ class Book
 
   attr_accessor :genre
 
-  def initialize(genre)
-    @genre = genre
-  end
+  GENRES = []
 
 end
