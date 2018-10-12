@@ -1,6 +1,6 @@
 class Shoe
 
-  attr_accessor :brand
+  attr_reader :brand
 
   BRANDS = []
 
@@ -8,6 +8,11 @@ class Shoe
     @brand = brand
   end
 
-  
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand.uniq
+  end
+
+
 
 end
