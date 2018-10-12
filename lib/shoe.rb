@@ -1,5 +1,6 @@
 class Shoe
 
+  attr_reader :brand
 
 
   BRANDS = []
@@ -8,10 +9,5 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
-
-  def brand
-    @brand
-  end
-
 
 end
