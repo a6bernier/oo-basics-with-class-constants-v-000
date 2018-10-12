@@ -1,5 +1,7 @@
 class Shoe
 
+  BRANDS = []
+
   def brand=(brand)
     @brand = brand
   end
